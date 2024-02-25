@@ -24,25 +24,25 @@ The project's code is organized as follows:
 
 ## Linear Model
 
-### Data Processing 
+**Data Processing:**
 The data was preprocessed and cleaned to remove noise and artifacts. It was then segmented into 4-second epochs for analysis.
 
-### Feature Extraction 
+**Feature Extraction:**
 Filter bank method was used to extract features.
 
-### Feature Selection 
+**Feature Selection:**
 Principal component analysis (PCA) was applied to select features.
 
-### Classifier 
+**Classifier:**
 Linear Discriminant Analysis (LDA)
 
 ## Deep Learning Model
 
-### Data Processing
+**Data Processing:**
 Raw data was segmented into 3-second epochs.
 
-### Feature Extraction
+**Feature Extraction:**
 No feature extraction was performed for the deep learning model, as raw data was used.
 
-### Classifier
+**Classifier:**
 Convolutional Neural Network (CNN)
