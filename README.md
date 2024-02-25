@@ -1,5 +1,7 @@
 # Motor Imagery Classification
 
+**Author:** Berrak Hoşgören
+
 The project processes EEG signals recorded from a subject imagining left and right-hand movements. It implements two different machine learning approaches (linear model and deep learning model) to classify motor imagery patterns.
 
 # Code Structure
