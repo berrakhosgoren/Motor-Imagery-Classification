@@ -6,18 +6,18 @@ The project processes EEG signals recorded from a subject imagining left and rig
 
 The project's code is organized as follows:
 
-- **deep_learning_model**: This directory contains the implementation of the deep learning model.
-  - `data_preparation.py`: Script for preparing the data specifically for the deep learning model.
-  - `CNN.py`: Script containing the implementation of the convolutional neural network (CNN) and hyperparameter tuning.
-
+- `main.py`: This script serves as the main entry point for the project. It controls the execution flow and orchestrates the linear and deep learning model.
+- `utils.py`: This script contains helper functions used across both linear and deep learning models.
+  
 - **linear_model**: This directory contains the implementation of the linear model.
   - `importing.py`: Script for importing data to mne files. 
   - `preprocessing.py`: Script for preprocessing the data before feeding it into the linear model.
   - `feature_engineering.py`: Script for feature extraction and selection.
   - `LDA.py`: Script containing the implementation of the Linear Discriminant Analysis (LDA) classifier.
     
-- **utils.py**: This script contains helper functions used across both linear and deep learning models.
-- **main.py**: This script serves as the main entry point for the project. It controls the execution flow and orchestrates the linear and deep learning model.
+- **deep_learning_model**: This directory contains the implementation of the deep learning model.
+  - `data_preparation.py`: Script for preparing the data specifically for the deep learning model.
+  - `CNN.py`: Script containing the implementation of the convolutional neural network (CNN) and hyperparameter tuning.
 
 
 ## Linear Model
